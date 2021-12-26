@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    position: relative;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
+
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+
+.first,
+.second,
+.third {
+    padding: 0 5%;
+
+}
+
+/* First block */
+.first {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 8px 0 0 8px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.first-icon img,
+.second-icon img,
+.third-icon img {
+    padding: 2rem 0;
+}
+
+.text-content h1 {
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-size: 32px;
+    padding-bottom: 2rem;
+}
+
+.text-content p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-bottom: 4rem;
+}
+
+.first-button,
+.second-button,
+.third-button {
+    padding-bottom: 2.4rem;
+    width: 70%;
+
+}
+
+.first-button .learn1
+{    display: block;
+    background-color: hsl(0, 0%, 95%);
+    padding: 10%;
+    border-radius: 25px;
+    transition: color 0.3s ease;
+}
+
+.first-button .learn1:hover {
+    color: white;
+    background: transparent;
+    border: white solid 2px;
+}
+.second-button .learn2 {
+    display: block;
+    background-color: hsl(0, 0%, 95%);
+    padding: 10%;
+    border-radius: 25px;
+    transition: color 0.3s ease;
+}
+.second-button .learn2:hover {
+    color: white;
+    background: transparent;
+    border: white solid 2px;
+}
+
+.third-button .learn3 {
+    display: block;
+    background-color: hsl(0, 0%, 95%);
+    padding: 10%;
+    border-radius: 25px;
+    transition: color 0.3s ease;
+}
+
+.third-button .learn3:hover {
+    color: white;
+    background: transparent;
+    border: white solid 2px;
+}
+
+.first-button a {
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Second block */
+
+.second {
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.second-button a {
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Third block */
+
+.third {
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    flex-direction: column;
+}
+
+.third-button a {
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+
